@@ -3,7 +3,7 @@ title=Code-Tree Bookmarks
 desc=Show bookmarks in the Code-Tree
 type=cudatext-plugin
 subdir=cuda_code_tree_x
-homepage=(Fill the GitHub repo URL)
+homepage=https://github.com/halfbrained/cuda_code_tree_x
 
 [item1]
 section=events
