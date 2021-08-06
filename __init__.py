@@ -13,16 +13,12 @@ opt_fn_icon   = os.path.join(os.path.dirname(__file__), 'icon.png')
 
 @contextmanager
 def lock_tree(h_tree):
-    from time import time as t
-    _t0 = t()
-
     tree_proc(h_tree, TREE_LOCK)
     try:
         yield
     finally:
         tree_proc(h_tree, TREE_UNLOCK)
-    _t1 = t()
-    print(f'NOTE: updated tree in : {_t1-_t0:.3f}')
+
 
 class Command:
 

@@ -14,3 +14,8 @@ section=commands
 caption=Code-Tree Bookmarks\Config
 method=config
 menu=o
+
+Plugin to show bookmarks in the Code-Tree
+
+Can be downloaded here: [url=https://github.com/halfbrained/cuda_code_tree_x]github[/url]
+
